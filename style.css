@@ -1,60 +1,135 @@
 body {
   background-color: #1E90FF;
+  font-family: 'Press Start 2P', cursive;
+
 }
 
-#mapid {height: 680px;
-        width: 1300px;
-        position: fixed;
+header {
+  width: 100%;
+  height: 20%;
+  background-color: royalblue;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 20px;
+}
+
+/*header div {
+  width: 25%;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  border-radius: 10px 0 0 0;
+}*/
+header a {
+  height: 100%;
+  width: 25%;
+}
+
+header a img {
+  height: 100%;
+  width: 100%;
+}
+
+header p {
+  font-size: 2em;
+  font-style: bold;
+  color: white;
+  text-shadow: 2px 2px 4px grey;
+  margin-left: 3%;
+}
+
+#P1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#mapid {height: 660px;
+        width: 75%;
+        position: relative;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        border-radius: 10px;
         top: 10px;
         left: 10px;
         margin-bottom: 10px;
 }
 
-#aide {height: 605px;
-       width: 560px;
+#aide {height: 580px;
+       width: 25%;
+       margin-left: 5%;
        background-color: white;
        border: solid 4px blue;
-       position: fixed;
+       position: relative;
        top: 10px;
-       right: 10px;
+       right: 20px;
 }
 
-#separation_aide {width: 100%;
-                  border-bottom: 4px solid blue;
+#aide #text {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-h2 {font-size: 3em;
+#entete {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4px solid blue;
+}
+
+#entete img {
+  height: 70%;
+  width: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  left: 0px;
+}
+
+#entete h2 {
+    font-size: 2em;
     font-style: bold;
     color: blue;
-    position: fixed;
-    top: 15px;
-    left: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
 }
 
-#coords {width: 270px;
+#coords {width: 250px;
          height: 25px;
-         font-size: 1.1em;
+         font-size: 0.8em;
          font-style: bold;
          border: solid 2px blue;
          background-color: white;
          position: fixed;
-         right: 280px;
-         top: 640px;
+         right: 3%;
+         bottom: 0%;
          padding: 10px;
 }
 
 #inventaire {height: 160px;
-             width: 1875px;
-             border: solid 5px blue;
-             background-color: #00BFFF;
-             margin-left: 10px;
-             position: fixed;
-             bottom: 50px;
+             width: 96%;
+             margin-top: 4%;
+             margin-left: 2%;
+             margin-right: 2%;
+             border: solid 5px white;
+             border-radius: 10px;
+             background-color: black;
+             /*background-color: #00BFFF;*/
+             position: relative;
+             bottom: 20px;
 }
 
-#bas_de_page {position: fixed;
-              left: 45%;
-              bottom: 15px;
-              font-size: 1.1em;
-              font-style: italic;
+#bas_de_page {
+  position: relative;
+  left: 35%;
+  bottom: 20px;
+  top: 0px;
+  font-size: 0.7em;
+  font-style: italic;
 }
