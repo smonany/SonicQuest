@@ -5,6 +5,7 @@ I Récupération des fichiers
    Téléchargez les fichiers du dossier et placez-les dans un même dossier en local
 
 
+
 II Préparation de la base données
 
   1. Ouvrez EasyPhp
@@ -20,6 +21,7 @@ Vous avez importé la base de données objets !
   8. Répétez les étapes 4. à 7. en ouvrant le fichier scores.sql
   
 Votre base de données est prête !
+
 
 
 III Lancement du jeu
